@@ -1,0 +1,12 @@
+.tree-view-container{
+    min-height: 100vh;
+    background-color: #9d0214;
+    width: 400px;
+}
+.item-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    color: aliceblue;
+}
