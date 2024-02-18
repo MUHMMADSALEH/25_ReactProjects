@@ -10,3 +10,7 @@
     cursor: pointer;
     color: aliceblue;
 }
+.menu-list-container{
+    list-style: none;
+    
+}
