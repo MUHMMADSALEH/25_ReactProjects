@@ -7,7 +7,9 @@
 // import StarRating from './component/star-rating';
 // import Accordian from './component/accordian';
 
-import LightAndDarkMode from "./component/lightAndDarkMode";
+import ScrollBar from "./component/ScrollBar";
+
+// import LightAndDarkMode from "./component/lightAndDarkMode";
 
 // import QrCodeGenerator from "./component/qr-code-generator";
 
@@ -21,7 +23,8 @@ function App() {
       {/* <LoadMoreData/> */}
       {/* <TreeView menus={menus} /> */}
       {/* <QrCodeGenerator/> */}
-      <LightAndDarkMode/>
+      {/* <LightAndDarkMode/> */}
+      <ScrollBar url={'https://dummyjson.com/products?limit=100'}/>
     </div>
   );
 }
