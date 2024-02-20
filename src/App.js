@@ -7,7 +7,9 @@
 // import StarRating from './component/star-rating';
 // import Accordian from './component/accordian';
 
-import QrCodeGenerator from "./component/qr-code-generator";
+import LightAndDarkMode from "./component/lightAndDarkMode";
+
+// import QrCodeGenerator from "./component/qr-code-generator";
 
 function App() {
   return (
@@ -18,7 +20,8 @@ function App() {
       {/* <ImageSlider/> */}
       {/* <LoadMoreData/> */}
       {/* <TreeView menus={menus} /> */}
-      <QrCodeGenerator/>
+      {/* <QrCodeGenerator/> */}
+      <LightAndDarkMode/>
     </div>
   );
 }
