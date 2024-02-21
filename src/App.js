@@ -7,7 +7,9 @@
 // import StarRating from './component/star-rating';
 // import Accordian from './component/accordian';
 
-import ScrollBar from "./component/ScrollBar";
+import TabTest from "./component/custom-tab/test-tabs";
+
+// import ScrollBar from "./component/ScrollBar";
 
 // import LightAndDarkMode from "./component/lightAndDarkMode";
 
@@ -24,7 +26,8 @@ function App() {
       {/* <TreeView menus={menus} /> */}
       {/* <QrCodeGenerator/> */}
       {/* <LightAndDarkMode/> */}
-      <ScrollBar url={'https://dummyjson.com/products?limit=100'}/>
+      {/* <ScrollBar url={'https://dummyjson.com/products?limit=100'}/> */}
+      <TabTest/>
     </div>
   );
 }
