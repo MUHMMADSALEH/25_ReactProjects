@@ -7,7 +7,11 @@
 // import StarRating from './component/star-rating';
 // import Accordian from './component/accordian';
 
-import TabTest from "./component/custom-tab/test-tabs";
+import ModalTest from "./component/custom-modal-popup/modal-test";
+
+
+
+// import TabTest from "./component/custom-tab/test-tabs";
 
 // import ScrollBar from "./component/ScrollBar";
 
@@ -27,7 +31,9 @@ function App() {
       {/* <QrCodeGenerator/> */}
       {/* <LightAndDarkMode/> */}
       {/* <ScrollBar url={'https://dummyjson.com/products?limit=100'}/> */}
-      <TabTest/>
+      {/* <TabTest/> */}
+      <ModalTest/>
+     
     </div>
   );
 }
