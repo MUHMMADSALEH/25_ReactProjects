@@ -7,7 +7,9 @@
 // import StarRating from './component/star-rating';
 // import Accordian from './component/accordian';
 
-import ModalTest from "./component/custom-modal-popup/modal-test";
+import GithubProfileFinder from "./component/github-profile-finder";
+
+// import ModalTest from "./component/custom-modal-popup/modal-test";
 
 
 
@@ -32,7 +34,9 @@ function App() {
       {/* <LightAndDarkMode/> */}
       {/* <ScrollBar url={'https://dummyjson.com/products?limit=100'}/> */}
       {/* <TabTest/> */}
-      <ModalTest/>
+      {/* <ModalTest/> */}
+
+      <GithubProfileFinder/>
      
     </div>
   );
