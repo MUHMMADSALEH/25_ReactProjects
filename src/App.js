@@ -7,7 +7,9 @@
 // import StarRating from './component/star-rating';
 // import Accordian from './component/accordian';
 
-import GithubProfileFinder from "./component/github-profile-finder";
+import AutoCompleteSearch from "./component/AutoCompleteSearch";
+
+// import GithubProfileFinder from "./component/github-profile-finder";
 
 // import ModalTest from "./component/custom-modal-popup/modal-test";
 
@@ -36,7 +38,8 @@ function App() {
       {/* <TabTest/> */}
       {/* <ModalTest/> */}
 
-      <GithubProfileFinder/>
+      {/* <GithubProfileFinder/> */}
+      <AutoCompleteSearch/>
      
     </div>
   );
