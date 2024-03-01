@@ -7,7 +7,9 @@
 // import StarRating from './component/star-rating';
 // import Accordian from './component/accordian';
 
-import AutoCompleteSearch from "./component/AutoCompleteSearch";
+import TicTacToe from "./component/tic-tac-toe-game";
+
+// import AutoCompleteSearch from "./component/AutoCompleteSearch";
 
 // import GithubProfileFinder from "./component/github-profile-finder";
 
@@ -39,7 +41,8 @@ function App() {
       {/* <ModalTest/> */}
 
       {/* <GithubProfileFinder/> */}
-      <AutoCompleteSearch/>
+      {/* <AutoCompleteSearch/> */}
+      <TicTacToe/>
      
     </div>
   );
