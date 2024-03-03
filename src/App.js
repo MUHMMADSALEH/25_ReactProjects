@@ -7,7 +7,13 @@
 // import StarRating from './component/star-rating';
 // import Accordian from './component/accordian';
 
-import TicTacToe from "./component/tic-tac-toe-game";
+import TestUseWindowResize from "./component/custom-hook/use-window-rsize/test";
+
+// import UseOnclickOutsideTest from "./component/custom-hook/use-outside-click/test";
+
+// import TestFetchHook from "./component/UseFetchHook/test";
+
+// import TicTacToe from "./component/tic-tac-toe-game";
 
 // import AutoCompleteSearch from "./component/AutoCompleteSearch";
 
@@ -42,8 +48,10 @@ function App() {
 
       {/* <GithubProfileFinder/> */}
       {/* <AutoCompleteSearch/> */}
-      <TicTacToe/>
-     
+      {/* <TicTacToe/> */}
+{/* <TestFetchHook/>      */}
+{/* <UseOnclickOutsideTest/> */}
+<TestUseWindowResize/>
     </div>
   );
 }
