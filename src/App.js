@@ -7,7 +7,11 @@
 // import StarRating from './component/star-rating';
 // import Accordian from './component/accordian';
 
-import TestUseWindowResize from "./component/custom-hook/use-window-rsize/test";
+import ScrollToSection from "./component/scrollUpAndBottom/scrollToperticularSection";
+
+// import ScrollUpAndBottom from "./component/scrollUpAndBottom";
+
+// import TestUseWindowResize from "./component/custom-hook/use-window-rsize/test";
 
 // import UseOnclickOutsideTest from "./component/custom-hook/use-outside-click/test";
 
@@ -51,7 +55,9 @@ function App() {
       {/* <TicTacToe/> */}
 {/* <TestFetchHook/>      */}
 {/* <UseOnclickOutsideTest/> */}
-<TestUseWindowResize/>
+{/* <TestUseWindowResize/> */}
+{/* <ScrollUpAndBottom/> */}
+<ScrollToSection/>
     </div>
   );
 }
